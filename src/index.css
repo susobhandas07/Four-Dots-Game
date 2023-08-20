@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --bg-1: #ff7676;
+  --bg-2: #ffe763;
+  --header-btn-bg: rgba(169, 169, 245, 0.651);
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: rgb(116, 30, 214);
+}
+
+h5,
+h4,
+h3,
+h2,
+h1 {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.border-3 {
+  border-width: 3px;
+}
+
+.box-shadow {
+  box-shadow: 0 5px black;
+}
+
+.box-shadow-inset {
+  box-shadow: 0 5px black inset;
+}
+
+.animate-morph:active {
+  animation: all linear 500ms;
+}
+
+.animate-morph:active {
+  transform: scale(0.95);
+  box-shadow: none;
+
+}
+
+.inactive {
+  scale: 0.9;
+  opacity: 0.7;
+}
