@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -13,9 +17,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --bg-1: #ff7676;
-  --bg-2: #ffe763;
-  --header-btn-bg: rgba(169, 169, 245, 0.651);
+  --bg-1: #fe6885;
+  --bg-2: #ffcd68;
+  --header-btn-bg: #7a45ff;
 }
 
 #root {
